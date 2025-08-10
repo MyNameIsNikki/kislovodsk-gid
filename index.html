@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="bg-amber-50 font-inter">
-    <header class="relative bg-cover bg-center py-16 md:py-24" style="background-image: url('/images/bg_Kislovodsk.jpg')">
+    <header class="relative bg-cover bg-center py-16 md:py-24" style="background-image: url('../images/bg_Kislovodsk.jpg')">
         <div class="absolute inset-0 bg-gradient-to-b from-black/60 to-black/20"></div>
         <div class="container mx-auto px-4 relative z-10">
             <div class="inline-block bg-white/90 backdrop-blur-md rounded-xl px-6 py-4 md:px-8 md:py-6 -ml-4">
@@ -33,7 +33,7 @@
                 <h2 class="text-3xl font-semibold mb-4 text-teal-900">Уютная квартира в центре Кисловодска</h2>
                 <div class="flex flex-col md:flex-row gap-8">
                     <div class="w-full md:w-1/3">
-                        <img src="/images/Квартира.jpg" alt="Квартира" class="rounded-xl w-full object-cover">
+                        <img src="../images/Квартира.jpg" alt="Квартира" class="rounded-xl w-full object-cover">
                     </div>
                     <div class="flex-1">
                         <p class="text-gray-700 mb-4">Просторная и современная квартира по адресу: <strong>г. Кисловодск, ул. Новая, д. 27</strong>. Идеально подходит для гостей города, желающих насладиться комфортом и близостью к основным достопримечательностям.</p>
@@ -48,62 +48,62 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <!-- Карточки для квартиры -->
                     <div class="bg-amber-50 rounded-xl p-4 shadow hover:shadow-md transition cursor-pointer group" onclick="openApartmentModal('narzan')">
-                        <img src="/images/Нарзанная галерея внешне.jpg" alt="Нарзанная галерея" class="rounded-xl mb-4 w-full object-cover">
+                        <img src="../images/Нарзанная галерея внешне.jpg" alt="Нарзанная галерея" class="rounded-xl mb-4 w-full object-cover">
                         <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Нарзанная галерея</h3>
                         <p class="text-gray-600 group-hover:opacity-90">Историческое место с целебными источниками (0.5 км от квартиры).</p>
                     </div>
                     <div class="bg-amber-50 rounded-xl p-4 shadow hover:shadow-md transition cursor-pointer group" onclick="openApartmentModal('park')">
-                        <img src="/images/Курортный парк.jpg" alt="Курортный парк" class="rounded-xl mb-4 w-full object-cover">
+                        <img src="../images/Курортный парк.jpg" alt="Курортный парк" class="rounded-xl mb-4 w-full object-cover">
                         <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Курортный парк</h3>
                         <p class="text-gray-600 group-hover:opacity-90">Живописный парк с Долиной роз (0.8 км от квартиры).</p>
                     </div>
                     <div class="bg-amber-50 rounded-xl p-4 shadow hover:shadow-md transition cursor-pointer group" onclick="openApartmentModal('castle')">
-                        <img src="/images/Замок коварства и любви.jpg" alt="Замок коварства и любви" class="rounded-xl mb-4 w-full object-cover">
+                        <img src="../images/Замок коварства и любви.jpg" alt="Замок коварства и любви" class="rounded-xl mb-4 w-full object-cover">
                         <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Замок коварства и любви</h3>
                         <p class="text-gray-600 group-hover:opacity-90">Романтическое место с легендой (2 км от квартиры).</p>
                     </div>
                     <div class="bg-amber-50 rounded-xl p-4 shadow hover:shadow-md transition cursor-pointer group" onclick="openApartmentModal('colonnade')">
-                        <img src="/images/Коллонада.jpg" alt="Колоннада" class="rounded-xl mb-4 w-full object-cover">
+                        <img src="../images/Коллонада.jpg" alt="Колоннада" class="rounded-xl mb-4 w-full object-cover">
                         <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Колоннада</h3>
                         <p class="text-gray-600 group-hover:opacity-90">Архитектурный символ Кисловодска (0.6 км от квартиры).</p>
                     </div>
                     <div class="bg-amber-50 rounded-xl p-4 shadow hover:shadow-md transition cursor-pointer group" onclick="openApartmentModal('staircase')">
-                        <img src="/images/Каскадная лестница.jpg" alt="Каскадная лестница" class="rounded-xl mb-4 w-full object-cover">
+                        <img src="../images/Каскадная лестница.jpg" alt="Каскадная лестница" class="rounded-xl mb-4 w-full object-cover">
                         <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Каскадная лестница</h3>
                         <p class="text-gray-600 group-hover:opacity-90">Живописная лестница в парке (0.7 км от квартиры).</p>
                     </div>
                     <div class="bg-amber-50 rounded-xl p-4 shadow hover:shadow-md transition cursor-pointer group" onclick="openApartmentModal('bridge')">
-                        <img src="/images/Мост Дамский каприз.JPG" alt="Мостик Дамский каприз" class="rounded-xl mb-4 w-full object-cover">
+                        <img src="../images/Мост Дамский каприз.JPG" alt="Мостик Дамский каприз" class="rounded-xl mb-4 w-full object-cover">
                         <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Мостик "Дамский каприз"</h3>
                         <p class="text-gray-600 group-hover:opacity-90">Романтический мостик в парке (1 км от квартиры).</p>
                     </div>
                     <div class="bg-amber-50 rounded-xl p-4 shadow hover:shadow-md transition cursor-pointer group" onclick="openApartmentModal('temple')">
-                        <img src="/images/храм воздуха.jpg" alt="Храм Воздуха" class="rounded-xl mb-4 w-full object-cover">
+                        <img src="../images/храм воздуха.jpg" alt="Храм Воздуха" class="rounded-xl mb-4 w-full object-cover">
                         <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Храм Воздуха</h3>
                         <p class="text-gray-600 group-hover:opacity-90">Павильон с панорамным видом (1.5 км от квартиры).</p>
                     </div>
                     <div class="bg-amber-50 rounded-xl p-4 shadow hover:shadow-md transition cursor-pointer group" onclick="openApartmentModal('lermontov')">
-                        <img src="/images/Лермонтовская площадка.jpg" alt="Лермонтовская площадка" class="rounded-xl mb-4 w-full object-cover">
+                        <img src="../images/Лермонтовская площадка.jpg" alt="Лермонтовская площадка" class="rounded-xl mb-4 w-full object-cover">
                         <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Лермонтовская площадка</h3>
                         <p class="text-gray-600 group-hover:opacity-90">Место с видом на Эльбрус (1.8 км от квартиры).</p>
                     </div>
                     <div class="bg-amber-50 rounded-xl p-4 shadow hover:shadow-md transition cursor-pointer group" onclick="openApartmentModal('circus')">
-                        <img src="/images/Цирк.jpg" alt="Кисловодский цирк" class="rounded-xl mb-4 w-full object-cover">
+                        <img src="../images/Цирк.jpg" alt="Кисловодский цирк" class="rounded-xl mb-4 w-full object-cover">
                         <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Кисловодский цирк</h3>
                         <p class="text-gray-600 group-hover:opacity-90">Главная цирковая площадка города (0.3 км от квартиры).</p>
                     </div>
                     <div class="bg-amber-50 rounded-xl p-4 shadow hover:shadow-md transition cursor-pointer group" onclick="openApartmentModal('komsomol')">
-                        <img src="/images/Комсомольский парк.jpg" alt="Комсомольский парк" class="rounded-xl mb-4 w-full object-cover">
+                        <img src="../images/Комсомольский парк.jpg" alt="Комсомольский парк" class="rounded-xl mb-4 w-full object-cover">
                         <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Комсомольский парк</h3>
                         <p class="text-gray-600 group-hover:opacity-90">Зеленый парк с аттракционами (0.4 км от квартиры).</p>
                     </div>
                     <div class="bg-amber-50 rounded-xl p-4 shadow hover:shadow-md transition cursor-pointer group" onclick="openApartmentModal('lake')">
-                        <img src="/images/Старое озеро.jpeg" alt="Старое озеро" class="rounded-xl mb-4 w-full object-cover">
+                        <img src="../images/Старое озеро.jpeg" alt="Старое озеро" class="rounded-xl mb-4 w-full object-cover">
                         <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Старое озеро</h3>
                         <p class="text-gray-600 group-hover:opacity-90">Живописное озеро в центре города (0.6 км от квартиры).</p>
                     </div>
                     <div class="bg-amber-50 rounded-xl p-4 shadow hover:shadow-md transition cursor-pointer group" onclick="openApartmentModal('playground')">
-                        <img src="/images/Детская площадка.jpg" alt="Детская площадка" class="rounded-xl mb-4 w-full object-cover">
+                        <img src="../images/Детская площадка.jpg" alt="Детская площадка" class="rounded-xl mb-4 w-full object-cover">
                         <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Детская площадка</h3>
                         <p class="text-gray-600 group-hover:opacity-90">Благоустроенная игровая зона для детей (0.2 км от квартиры).</p>
                     </div>
@@ -118,161 +118,161 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <!-- Карточки для гида -->
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('narzan')">
-                        <img src="/images/Нарзанная галерея внешне.jpg" alt="Нарзанная галерея" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Нарзанная галерея внешне.jpg" alt="Нарзанная галерея" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Нарзанная галерея</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Историческое место с целебными источниками.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('dzhily')">
-                        <img src="/images/Джилы-СУ.jpg" alt="Джилы-СУ" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Джилы-СУ.jpg" alt="Джилы-СУ" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Джилы-СУ</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Природный комплекс с минеральными источниками.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('philharmonic')">
-                        <img src="/images/Филармония.jpg" alt="Филармония им. Сафонова" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Филармония.jpg" alt="Филармония им. Сафонова" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Филармония им. Сафонова</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Концертный зал с классической музыкой.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('wolfvalley')">
-                        <img src="/images/Долина волков.jpg" alt="Долина волков" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Долина волков.jpg" alt="Долина волков" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Долина волков</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Парк с вольерами, где живут волки.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('bermamyt')">
-                        <img src="/images/Бермамыт.jpg" alt="Плато Бермамыт" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Бермамыт.jpg" alt="Плато Бермамыт" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Плато Бермамыт</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Живописное горное плато с видами на Эльбрус.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('suvorov')">
-                        <img src="/images/Суворовские ванны.jpg" alt="Суворовские ванны" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Суворовские ванны.jpg" alt="Суворовские ванны" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Суворовские ванны</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Термальные источники с лечебной водой.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('italian')">
-                        <img src="/images/Итальянские термы.jpg" alt="Итальянские термы" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Итальянские термы.jpg" alt="Итальянские термы" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Итальянские термы</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Спа-комплекс с термальными бассейнами.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('alpaca')">
-                        <img src="/images/Внутреннее устройство/Альпаки/Альпаки 2.jpg" alt="Альпаки в Долине нарзанов" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Внутреннее устройство/Альпаки/Альпаки 2.jpg" alt="Альпаки в Долине нарзанов" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Альпаки в Долине нарзанов</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Контактый зоопарк с альпаками.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('observatory')">
-                        <img src="/images/Обсерватория Шаджатмаз.jpg" alt="Обсерватория Шаджатмаз" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Обсерватория Шаджатмаз.jpg" alt="Обсерватория Шаджатмаз" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Обсерватория Шаджатмаз</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Астрономическая обсерватория с экскурсиями.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('park')">
-                        <img src="/images/Курортный парк.jpg" alt="Курортный парк" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Курортный парк.jpg" alt="Курортный парк" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Курортный парк</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Живописный парк с Долиной роз.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('castle')">
-                        <img src="/images/Замок коварства и любви.jpg" alt="Замок коварства и любви" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Замок коварства и любви.jpg" alt="Замок коварства и любви" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Замок коварства и любви</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Романтическое место с легендой.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('colonnade')">
-                        <img src="/images/Коллонада.jpg" alt="Колоннада" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Коллонада.jpg" alt="Колоннада" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Колоннада</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Архитектурный символ Кисловодска.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('staircase')">
-                        <img src="/images/Каскадная лестница.jpg" alt="Каскадная лестница" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Каскадная лестница.jpg" alt="Каскадная лестница" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Каскадная лестница</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Живописная лестница в парке.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('bridge')">
-                        <img src="/images/Мост Дамский каприз.JPG" alt="Мостик Дамский каприз" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Мост Дамский каприз.JPG" alt="Мостик Дамский каприз" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Мостик "Дамский каприз"</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Романтический мостик в парке.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('temple')">
-                        <img src="/images/храм воздуха.jpg" alt="Храм Воздуха" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/храм воздуха.jpg" alt="Храм Воздуха" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Храм Воздуха</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Павильон с панорамным видом.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('lermontov')">
-                        <img src="/images/Лермонтовская площадка.jpg" alt="Лермонтовская площадка" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Лермонтовская площадка.jpg" alt="Лермонтовская площадка" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Лермонтовская площадка</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Место с видом на Эльбрус.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('cableway')">
-                        <img src="/images/Канатная дорога.jpg" alt="Канатная дорога" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Канатная дорога.jpg" alt="Канатная дорога" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Канатная дорога</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Подъёмник с видами на горы.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('ring')">
-                        <img src="/images/Кольцо гора.jpg" alt="Гора Кольцо" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Кольцо гора.jpg" alt="Гора Кольцо" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Гора Кольцо</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Природная арка с панорамным видом.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('waterfalls')">
-                        <img src="/images/Медовые водопады.jpg" alt="Медовые водопады" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Медовые водопады.jpg" alt="Медовые водопады" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Медовые водопады</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Живописные водопады в окрестностях.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('chaliapin')">
-                        <img src="/images/Дача Шаляпина.jpg" alt="Дача Шаляпина" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Дача Шаляпина.jpg" alt="Дача Шаляпина" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Дача Шаляпина</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Исторический дом-музей певца.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('circus')">
-                        <img src="/images/Цирк.jpg" alt="Кисловодский цирк" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Цирк.jpg" alt="Кисловодский цирк" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Кисловодский цирк</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Главная цирковая площадка города.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('komsomol')">
-                        <img src="/images/Комсомольский парк.jpg" alt="Комсомольский парк" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Комсомольский парк.jpg" alt="Комсомольский парк" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Комсомольский парк</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Зеленый парк с аттракционами.</p>
                         </div>
                     </div>
                     <div class="bg-amber-50 rounded-xl shadow hover:shadow-md transition cursor-pointer group flex" onclick="openGuideModal('lake')">
-                        <img src="/images/Старое озеро.jpeg" alt="Старое озеро" class="rounded-xl w-1/3 object-cover mr-4">
+                        <img src="../images/Старое озеро.jpeg" alt="Старое озеро" class="rounded-xl w-1/3 object-cover mr-4">
                         <div class="flex-1">
                             <h3 class="text-xl font-semibold text-teal-900 group-hover:text-teal-700">Старое озеро</h3>
                             <p class="text-gray-600 group-hover:opacity-90">Живописное озеро в центре города.</p>
@@ -294,7 +294,7 @@
         <div id="apartment-narzan-modal" class="modal fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
             <div class="bg-white rounded-xl p-8 max-w-lg w-full">
                 <h3 class="text-2xl font-semibold mb-4 text-teal-900">Нарзанная галерея</h3>
-                <img src="/images/Внутреннее устройство/Нарзанная галерея/Нарзання галерея.jpg" alt="Нарзанная галерея" class="rounded-xl mb-4 w-full object-cover">
+                <img src="../images/Внутреннее устройство/Нарзанная галерея/Нарзання галерея.jpg" alt="Нарзанная галерея" class="rounded-xl mb-4 w-full object-cover">
                 <p class="text-gray-700 mb-4">Нарзанная галерея — историческое здание XIX века, где можно попробовать минеральную воду Кисловодска. Расположена всего в 500 метрах от нашей квартиры.</p>
                 <div class="flex items-center gap-4">
                     <a href="https://homereserve.ru/3xwFYTUeu0/detail/256055" target="_blank" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</a>
@@ -306,7 +306,7 @@
         <div id="apartment-park-modal" class="modal fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
             <div class="bg-white rounded-xl p-8 max-w-lg w-full">
                 <h3 class="text-2xl font-semibold mb-4 text-teal-900">Курортный парк</h3>
-                <img src="/images/Курортный парк.jpg" alt="Курортный парк" class="rounded-xl mb-4 w-full object-cover">
+                <img src="../images/Курортный парк.jpg" alt="Курортный парк" class="rounded-xl mb-4 w-full object-cover">
                 <p class="text-gray-700 mb-4">Курортный парк — крупнейший парк в Европе, с живописными тропами и знаменитой Долиной роз. Всего 800 метров от нашей квартиры.</p>
                 <div class="flex items-center gap-4">
                     <a href="https://homereserve.ru/3xwFYTUeu0/detail/256055" target="_blank" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</a>
@@ -318,7 +318,7 @@
         <div id="apartment-castle-modal" class="modal fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
             <div class="bg-white rounded-xl p-8 max-w-lg w-full">
                 <h3 class="text-2xl font-semibold mb-4 text-teal-900">Замок коварства и любви</h3>
-                <img src="/images/Замок коварства и любви.jpg" alt="Замок коварства и любви" class="rounded-xl mb-4 w-full object-cover">
+                <img src="../images/Замок коварства и любви.jpg" alt="Замок коварства и любви" class="rounded-xl mb-4 w-full object-cover">
                 <p class="text-gray-700 mb-4">Уникальное место с романтической легендой, окружённое природой. Находится в 2 км от нашей квартиры.</p>
                 <div class="flex items-center gap-4">
                     <a href="https://homereserve.ru/3xwFYTUeu0/detail/256055" target="_blank" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</a>
@@ -330,7 +330,7 @@
         <div id="apartment-colonnade-modal" class="modal fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
             <div class="bg-white rounded-xl p-8 max-w-lg w-full">
                 <h3 class="text-2xl font-semibold mb-4 text-teal-900">Колоннада</h3>
-                <img src="/images/Коллонада.jpg" alt="Колоннада" class="rounded-xl mb-4 w-full object-cover">
+                <img src="../images/Коллонада.jpg" alt="Колоннада" class="rounded-xl mb-4 w-full object-cover">
                 <p class="text-gray-700 mb-4">Колоннада — величественное сооружение у входа в Курортный парк, символ города. Расположена в 600 метрах от квартиры.</p>
                 <div class="flex items-center gap-4">
                     <a href="https://homereserve.ru/3xwFYTUeu0/detail/256055" target="_blank" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</a>
@@ -342,7 +342,7 @@
         <div id="apartment-staircase-modal" class="modal fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
             <div class="bg-white rounded-xl p-8 max-w-lg w-full">
                 <h3 class="text-2xl font-semibold mb-4 text-teal-900">Каскадная лестница</h3>
-                <img src="/images/Каскадная лестница.jpg" alt="Каскадная лестница" class="rounded-xl mb-4 w-full object-cover">
+                <img src="../images/Каскадная лестница.jpg" alt="Каскадная лестница" class="rounded-xl mb-4 w-full object-cover">
                 <p class="text-gray-700 mb-4">Живописная лестница с фонтанами в Курортном парке, популярное место для прогулок. Находится в 700 метрах от квартиры.</p>
                 <div class="flex items-center gap-4">
                     <a href="https://homereserve.ru/3xwFYTUeu0/detail/256055" target="_blank" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</a>
@@ -354,7 +354,7 @@
         <div id="apartment-bridge-modal" class="modal fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
             <div class="bg-white rounded-xl p-8 max-w-lg w-full">
                 <h3 class="text-2xl font-semibold mb-4 text-teal-900">Мостик "Дамский каприз"</h3>
-                <img src="/images/Мост Дамский каприз.JPG" alt="Мостик Дамский каприз" class="rounded-xl mb-4 w-full object-cover">
+                <img src="../images/Мост Дамский каприз.JPG" alt="Мостик Дамский каприз" class="rounded-xl mb-4 w-full object-cover">
                 <p class="text-gray-700 mb-4">Маленький романтический мостик в Курортном парке с красивым видом. Расположен в 1 км от квартиры.</p>
                 <div class="flex items-center gap-4">
                     <a href="https://homereserve.ru/3xwFYTUeu0/detail/256055" target="_blank" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</a>
@@ -366,7 +366,7 @@
         <div id="apartment-temple-modal" class="modal fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
             <div class="bg-white rounded-xl p-8 max-w-lg w-full">
                 <h3 class="text-2xl font-semibold mb-4 text-teal-900">Храм Воздуха</h3>
-                <img src="/images/храм воздуха.jpg" alt="Храм Воздуха" class="rounded-xl mb-4 w-full object-cover">
+                <img src="../images/храм воздуха.jpg" alt="Храм Воздуха" class="rounded-xl mb-4 w-full object-cover">
                 <p class="text-gray-700 mb-4">Исторический павильон в Курортном парке с панорамным видом на горы. Находится в 1.5 км от квартиры.</p>
                 <div class="flex items-center gap-4">
                     <a href="https://homereserve.ru/3xwFYTUeu0/detail/256055" target="_blank" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</a>
@@ -378,7 +378,7 @@
         <div id="apartment-lermontov-modal" class="modal fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
             <div class="bg-white rounded-xl p-8 max-w-lg w-full">
                 <h3 class="text-2xl font-semibold mb-4 text-teal-900">Лермонтовская площадка</h3>
-                <img src="/images/Лермонтовская площадка.jpg" alt="Лермонтовская площадка" class="rounded-xl mb-4 w-full object-cover">
+                <img src="../images/Лермонтовская площадка.jpg" alt="Лермонтовская площадка" class="rounded-xl mb-4 w-full object-cover">
                 <p class="text-gray-700 mb-4">Смотровая площадка с видом на Эльбрус и Кавказский хребет. Расположена в 1.8 км от квартиры.</p>
                 <div class="flex items-center gap-4">
                     <a href="https://homereserve.ru/3xwFYTUeu0/detail/256055" target="_blank" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</a>
@@ -390,7 +390,7 @@
         <div id="apartment-circus-modal" class="modal fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
             <div class="bg-white rounded-xl p-8 max-w-lg w-full">
                 <h3 class="text-2xl font-semibold mb-4 text-teal-900">Кисловодский цирк</h3>
-                <img src="/images/Цирк.jpg" alt="Кисловодский цирк" class="rounded-xl mb-4 w-full object-cover">
+                <img src="../images/Цирк.jpg" alt="Кисловодский цирк" class="rounded-xl mb-4 w-full object-cover">
                 <p class="text-gray-700 mb-4">Кисловодский государственный цирк - одна из главных культурных площадок города, где проходят представления с участием российских и зарубежных артистов. Расположен в 300 метрах от квартиры.</p>
                 <div class="flex items-center gap-4">
                     <a href="https://homereserve.ru/3xwFYTUeu0/detail/256055" target="_blank" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</a>
@@ -402,7 +402,7 @@
         <div id="apartment-komsomol-modal" class="modal fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
             <div class="bg-white rounded-xl p-8 max-w-lg w-full">
                 <h3 class="text-2xl font-semibold mb-4 text-teal-900">Комсомольский парк</h3>
-                <img src="/images/Комсомольский парк.jpg" alt="Комсомольский парк" class="rounded-xl mb-4 w-full object-cover">
+                <img src="../images/Комсомольский парк.jpg" alt="Комсомольский парк" class="rounded-xl mb-4 w-full object-cover">
                 <p class="text-gray-700 mb-4">Комсомольский парк - зеленая зона в центре города с аттракционами, кафе и местами для отдыха. Идеальное место для семейного отдыха. Находится в 400 метрах от квартиры.</p>
                 <div class="flex items-center gap-4">
                     <a href="https://homereserve.ru/3xwFYTUeu0/detail/256055" target="_blank" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</a>
@@ -414,7 +414,7 @@
         <div id="apartment-lake-modal" class="modal fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
             <div class="bg-white rounded-xl p-8 max-w-lg w-full">
                 <h3 class="text-2xl font-semibold mb-4 text-teal-900">Старое озеро</h3>
-                <img src="/images/Старое озеро.jpeg" alt="Старое озеро" class="rounded-xl mb-4 w-full object-cover">
+                <img src="../images/Старое озеро.jpeg" alt="Старое озеро" class="rounded-xl mb-4 w-full object-cover">
                 <p class="text-gray-700 mb-4">Старое озеро - живописный водоем в центре Кисловодска, окруженный зелеными насаждениями. Популярное место для прогулок и фотосессий. Расположено в 600 метрах от квартиры.</p>
                 <div class="flex items-center gap-4">
                     <a href="https://homereserve.ru/3xwFYTUeu0/detail/256055" target="_blank" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</a>
@@ -426,7 +426,7 @@
         <div id="apartment-playground-modal" class="modal fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
             <div class="bg-white rounded-xl p-8 max-w-lg w-full">
                 <h3 class="text-2xl font-semibold mb-4 text-teal-900">Детская площадка</h3>
-                <img src="/images/Детская площадка.jpg" alt="Детская площадка" class="rounded-xl mb-4 w-full object-cover">
+                <img src="../images/Детская площадка.jpg" alt="Детская площадка" class="rounded-xl mb-4 w-full object-cover">
                 <p class="text-gray-700 mb-4">Благоустроенная игровая зона для детей с качелями, горками и песочницей. Находится всего в 200 метрах от нашей квартиры.</p>
                 <div class="flex items-center gap-4">
                     <a href="https://homereserve.ru/3xwFYTUeu0/detail/256055" target="_blank" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</a>
@@ -442,9 +442,9 @@
                 <div id="map-narzan" class="w-full h-64 mb-4 rounded-xl"></div>
                 <p class="text-gray-700 mb-4">Нарзанная галерея — историческое здание XIX века, где можно попробовать минеральную воду Кисловодска. Расположена всего в 500 метрах от нашей квартиры.</p>
                 <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-                    <img src="/images/Внутреннее устройство/Нарзанная галерея/Нарзання галерея.jpg" alt="Нарзанная галерея 1" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Нарзанная галерея/Нарзанная галерея 2.jpg" alt="Нарзанная галерея 2" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Нарзанная галерея/Нарзання галерея 3.jpg" alt="Нарзанная галерея 3" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Нарзанная галерея/Нарзання галерея.jpg" alt="Нарзанная галерея 1" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Нарзанная галерея/Нарзанная галерея 2.jpg" alt="Нарзанная галерея 2" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Нарзанная галерея/Нарзання галерея 3.jpg" alt="Нарзанная галерея 3" class="rounded-xl h-48 object-cover snap-center">
                 </div>
                 <div class="flex items-center gap-4">
                     <button onclick="switchTab('apartment')" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</button>
@@ -458,9 +458,9 @@
                 <div id="map-park" class="w-full h-64 mb-4 rounded-xl"></div>
                 <p class="text-gray-700 mb-4">Курортный парк — крупнейший парк в Европе, с живописными тропами и знаменитой Долиной роз. Всего 800 метров от нашей квартиры.</p>
                 <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-                    <img src="/images/Внутреннее устройство/Курортный парк/Кукрортный парк 1.jpg" alt="Курортный парк 1" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Курортный парк/Кукрортный парк 2.jpg" alt="Курортный парк 2" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Курортный парк/Кукрортный парк 3.jpg" alt="Курортный парк 3" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Курортный парк/Кукрортный парк 1.jpg" alt="Курортный парк 1" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Курортный парк/Кукрортный парк 2.jpg" alt="Курортный парк 2" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Курортный парк/Кукрортный парк 3.jpg" alt="Курортный парк 3" class="rounded-xl h-48 object-cover snap-center">
                 </div>
                 <div class="flex items-center gap-4">
                     <button onclick="switchTab('apartment')" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</button>
@@ -474,9 +474,9 @@
                 <div id="map-castle" class="w-full h-64 mb-4 rounded-xl"></div>
                 <p class="text-gray-700 mb-4">Уникальное место с романтической легендой, окружённое природой. Находится в 2 км от нашей квартиры.</p>
                 <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-                    <img src="/images/Внутреннее устройство/Замок коварства и любви/Замок коварства и любви 1.jpg" alt="Замок коварства 1" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Замок коварства и любви/Замок коварства и любви 2.jpg" alt="Замок коварства 2" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Замок коварства и любви/Замок коварства и любви 3.jpg" alt="Замок коварства 3" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Замок коварства и любви/Замок коварства и любви 1.jpg" alt="Замок коварства 1" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Замок коварства и любви/Замок коварства и любви 2.jpg" alt="Замок коварства 2" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Замок коварства и любви/Замок коварства и любви 3.jpg" alt="Замок коварства 3" class="rounded-xl h-48 object-cover snap-center">
                 </div>
                 <div class="flex items-center gap-4">
                     <button onclick="switchTab('apartment')" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</button>
@@ -490,9 +490,9 @@
                 <div id="map-colonnade" class="w-full h-64 mb-4 rounded-xl"></div>
                 <p class="text-gray-700 mb-4">Колоннада — величественное сооружение у входа в Курортный парк, символ города. Расположена в 600 метрах от квартиры.</p>
                 <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-                    <img src="/images/Внутреннее устройство/Коллонада/Коллонада 1.jpg" alt="Колоннада 1" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Коллонада/Коллонада 2.jpg" alt="Колоннада 2" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Коллонада/Коллонада 3.jpg" alt="Колоннада 3" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Коллонада/Коллонада 1.jpg" alt="Колоннада 1" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Коллонада/Коллонада 2.jpg" alt="Колоннада 2" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Коллонада/Коллонада 3.jpg" alt="Колоннада 3" class="rounded-xl h-48 object-cover snap-center">
                 </div>
                 <div class="flex items-center gap-4">
                     <button onclick="switchTab('apartment')" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</button>
@@ -506,9 +506,9 @@
                 <div id="map-staircase" class="w-full h-64 mb-4 rounded-xl"></div>
                 <p class="text-gray-700 mb-4">Живописная лестница с фонтанами в Курортном парке, популярное место для прогулок. Находится в 700 метрах от квартиры.</p>
                 <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-                    <img src="/images/Внутреннее устройство/Каскадная лестница/Каскадная лестница 1.jpg" alt="Каскадная лестница 1" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Каскадная лестница/Каскадная лестница 2.jpg" alt="Каскадная лестница 2" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Каскадная лестница/Каскадная лестница 3.jpg" alt="Каскадная лестница 3" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Каскадная лестница/Каскадная лестница 1.jpg" alt="Каскадная лестница 1" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Каскадная лестница/Каскадная лестница 2.jpg" alt="Каскадная лестница 2" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Каскадная лестница/Каскадная лестница 3.jpg" alt="Каскадная лестница 3" class="rounded-xl h-48 object-cover snap-center">
                 </div>
                 <div class="flex items-center gap-4">
                     <button onclick="switchTab('apartment')" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</button>
@@ -522,9 +522,9 @@
                 <div id="map-bridge" class="w-full h-64 mb-4 rounded-xl"></div>
                 <p class="text-gray-700 mb-4">Маленький романтический мостик в Курортном парке с красивым видом. Расположен в 1 км от квартиры.</p>
                 <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-                    <img src="/images/Внутреннее устройство/Дамский каприз/Дамский каприз 1.JPG" alt="Мостик Дамский каприз 1" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Дамский каприз/Дамский каприз 2.JPG" alt="Мостик Дамский каприз 2" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Дамский каприз/Дамский каприз 3.JPG" alt="Мостик Дамский каприз 3" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Дамский каприз/Дамский каприз 1.JPG" alt="Мостик Дамский каприз 1" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Дамский каприз/Дамский каприз 2.JPG" alt="Мостик Дамский каприз 2" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Дамский каприз/Дамский каприз 3.JPG" alt="Мостик Дамский каприз 3" class="rounded-xl h-48 object-cover snap-center">
                 </div>
                 <div class="flex items-center gap-4">
                     <button onclick="switchTab('apartment')" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</button>
@@ -538,9 +538,9 @@
                 <div id="map-temple" class="w-full h-64 mb-4 rounded-xl"></div>
                 <p class="text-gray-700 mb-4">Исторический павильон в Курортном парке с панорамным видом на горы. Находится в 1.5 км от квартиры.</p>
                 <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-                    <img src="/images/Внутреннее устройство/Храм воздуха/Храм 1.jpg" alt="Храм Воздуха 1" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Храм воздуха/Храм 2.jpg" alt="Храм Воздуха 2" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Храм воздуха/Храм 3.jpg" alt="Храм Воздуха 3" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Храм воздуха/Храм 1.jpg" alt="Храм Воздуха 1" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Храм воздуха/Храм 2.jpg" alt="Храм Воздуха 2" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Храм воздуха/Храм 3.jpg" alt="Храм Воздуха 3" class="rounded-xl h-48 object-cover snap-center">
                 </div>
                 <div class="flex items-center gap-4">
                     <button onclick="switchTab('apartment')" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</button>
@@ -554,9 +554,9 @@
                 <div id="map-lermontov" class="w-full h-64 mb-4 rounded-xl"></div>
                 <p class="text-gray-700 mb-4">Смотровая площадка с видом на Эльбрус и Кавказский хребет. Расположена в 1.8 км от квартиры.</p>
                 <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-                    <img src="/images/Внутреннее устройство/Лермонтовская площадка/Площадка 1.jpg" alt="Лермонтовская площадка 1" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Лермонтовская площадка/Площадка 2.jpg" alt="Лермонтовская площадка 2" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Лермонтовская площадка/Площадка 3.jpg" alt="Лермонтовская площадка 3" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Лермонтовская площадка/Площадка 1.jpg" alt="Лермонтовская площадка 1" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Лермонтовская площадка/Площадка 2.jpg" alt="Лермонтовская площадка 2" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Лермонтовская площадка/Площадка 3.jpg" alt="Лермонтовская площадка 3" class="rounded-xl h-48 object-cover snap-center">
                 </div>
                 <div class="flex items-center gap-4">
                     <button onclick="switchTab('apartment')" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</button>
@@ -570,9 +570,9 @@
                 <div id="map-cableway" class="w-full h-64 mb-4 rounded-xl"></div>
                 <p class="text-gray-700 mb-4">Канатная дорога в Курортном парке с потрясающими видами на горы и город. Идеально для любителей панорам.</p>
                 <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-                    <img src="/images/Внутреннее устройство/Канатная дорога/Дорога 1.jpg" alt="Канатная дорога 1" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Канатная дорога/Дорога 2.jpg" alt="Канатная дорога 2" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Канатная дорога/Дорога 3.jpg" alt="Канатная дорога 3" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Канатная дорога/Дорога 1.jpg" alt="Канатная дорога 1" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Канатная дорога/Дорога 2.jpg" alt="Канатная дорога 2" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Канатная дорога/Дорога 3.jpg" alt="Канатная дорога 3" class="rounded-xl h-48 object-cover snap-center">
                 </div>
                 <div class="flex items-center gap-4">
                     <button onclick="switchTab('apartment')" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</button>
@@ -586,9 +586,9 @@
                 <div id="map-ring" class="w-full h-64 mb-4 rounded-xl"></div>
                 <p class="text-gray-700 mb-4">Природная арка, связанная с легендами Лермонтова, с панорамным видом на окрестности.</p>
                 <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-                    <img src="/images/Внутреннее устройство/гора Кольцо/гора 1.jpg" alt="Гора Кольцо 1" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/гора Кольцо/гора 2.jpg" alt="Гора Кольцо 2" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/гора Кольцо/гора 3.jpg" alt="Гора Кольцо 3" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/гора Кольцо/гора 1.jpg" alt="Гора Кольцо 1" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/гора Кольцо/гора 2.jpg" alt="Гора Кольцо 2" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/гора Кольцо/гора 3.jpg" alt="Гора Кольцо 3" class="rounded-xl h-48 object-cover snap-center">
                 </div>
                 <div class="flex items-center gap-4">
                     <button onclick="switchTab('apartment')" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</button>
@@ -602,9 +602,9 @@
                 <div id="map-waterfalls" class="w-full h-64 mb-4 rounded-xl"></div>
                 <p class="text-gray-700 mb-4">Группа живописных водопадов в окрестностях Кисловодска, окружённых природой.</p>
                 <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-                    <img src="/images/Внутреннее устройство/Медовые водопады/Медовые водопады 1.jpeg" alt="Медовые водопады 1" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Медовые водопады/Медовые водопады 2.jpg" alt="Медовые водопады 2" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Медовые водопады/Медовые водопады 3.jpg" alt="Медовые водопады 3" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Медовые водопады/Медовые водопады 1.jpeg" alt="Медовые водопады 1" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Медовые водопады/Медовые водопады 2.jpg" alt="Медовые водопады 2" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Медовые водопады/Медовые водопады 3.jpg" alt="Медовые водопады 3" class="rounded-xl h-48 object-cover snap-center">
                 </div>
                 <div class="flex items-center gap-4">
                     <button onclick="switchTab('apartment')" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</button>
@@ -618,9 +618,9 @@
                 <div id="map-chaliapin" class="w-full h-64 mb-4 rounded-xl"></div>
                 <p class="text-gray-700 mb-4">Исторический дом-музей Фёдора Шаляпина, где он жил и выступал.</p>
                 <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-                    <img src="/images/Внутреннее устройство/Дача Шаляпина/Дача 1.jpg" alt="Дача Шаляпина 1" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Дача Шаляпина/Дача 2.jpg" alt="Дача Шаляпина 2" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Дача Шаляпина/Дача 3.jpg" alt="Дача Шаляпина 3" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Дача Шаляпина/Дача 1.jpg" alt="Дача Шаляпина 1" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Дача Шаляпина/Дача 2.jpg" alt="Дача Шаляпина 2" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Дача Шаляпина/Дача 3.jpg" alt="Дача Шаляпина 3" class="rounded-xl h-48 object-cover snap-center">
                 </div>
                 <div class="flex items-center gap-4">
                     <button onclick="switchTab('apartment')" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</button>
@@ -634,9 +634,9 @@
                 <div id="map-circus" class="w-full h-64 mb-4 rounded-xl"></div>
                 <p class="text-gray-700 mb-4">Кисловодский государственный цирк - одна из главных культурных площадок города, где проходят представления с участием российских и зарубежных артистов.</p>
                 <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-                    <img src="/images/Внутреннее устройство/Цирк/Цирк 1.jpg" alt="Кисловодский цирк 1" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Цирк/Цирк 2.jpg" alt="Кисловодский цирк 2" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Цирк/Цирк 3.jpg" alt="Кисловодский цирк 3" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Цирк/Цирк 1.jpg" alt="Кисловодский цирк 1" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Цирк/Цирк 2.jpg" alt="Кисловодский цирк 2" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Цирк/Цирк 3.jpg" alt="Кисловодский цирк 3" class="rounded-xl h-48 object-cover snap-center">
                 </div>
                 <div class="flex items-center gap-4">
                     <button onclick="switchTab('apartment')" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</button>
@@ -650,9 +650,9 @@
                 <div id="map-komsomol" class="w-full h-64 mb-4 rounded-xl"></div>
                 <p class="text-gray-700 mb-4">Комсомольский парк - зеленая зона в центре города с аттракционами, кафе и местами для отдыха. Идеальное место для семейного отдыха.</p>
                 <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-                    <img src="/images/Внутреннее устройство/Комсомольский парк/Парк 1.jpg" alt="Комсомольский парк 1" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Комсомольский парк/Парк 2.jpg" alt="Комсомольский парк 2" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Комсомольский парк/Парк 3.jpg" alt="Комсомольский парк 3" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Комсомольский парк/Парк 1.jpg" alt="Комсомольский парк 1" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Комсомольский парк/Парк 2.jpg" alt="Комсомольский парк 2" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Комсомольский парк/Парк 3.jpg" alt="Комсомольский парк 3" class="rounded-xl h-48 object-cover snap-center">
                 </div>
                 <div class="flex items-center gap-4">
                     <button onclick="switchTab('apartment')" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</button>
@@ -666,9 +666,9 @@
                 <div id="map-lake" class="w-full h-64 mb-4 rounded-xl"></div>
                 <p class="text-gray-700 mb-4">Старое озеро - живописный водоем в центре Кисловодска, окруженный зелеными насаждениями. Популярное место для прогулок и фотосессий.</p>
                 <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-                    <img src="/images/Внутреннее устройство/Старое озеро/Озеро 1.jpg" alt="Старое озеро 1" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Старое озеро/Озеро 2.jpg" alt="Старое озеро 2" class="rounded-xl h-48 object-cover snap-center">
-                    <img src="/images/Внутреннее устройство/Старое озеро/Озеро 3.jpg" alt="Старое озеро 3" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Старое озеро/Озеро 1.jpg" alt="Старое озеро 1" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Старое озеро/Озеро 2.jpg" alt="Старое озеро 2" class="rounded-xl h-48 object-cover snap-center">
+                    <img src="../images/Внутреннее устройство/Старое озеро/Озеро 3.jpg" alt="Старое озеро 3" class="rounded-xl h-48 object-cover snap-center">
                 </div>
                 <div class="flex items-center gap-4">
                     <button onclick="switchTab('apartment')" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</button>
@@ -683,9 +683,9 @@
         <div id="map-dzhily" class="w-full h-64 mb-4 rounded-xl"></div>
         <p class="text-gray-700 mb-4">Природный комплекс Джилы-СУ известен своими минеральными источниками и живописными видами на Кавказские горы. Здесь можно попробовать воду из разных источников, каждый из которых имеет уникальный состав.</p>
         <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-            <img src="/images/Внутреннее устройство/Джилы-Су/Джилы-Су 1.JPG" alt="Джилы-СУ 1" class="rounded-xl h-48 object-cover snap-center">
-            <img src="/images/Внутреннее устройство/Джилы-Су/Джилы-Су 2.JPG" class="rounded-xl h-48 object-cover snap-center">
-            <img src="/images/Внутреннее устройство/Джилы-Су/Джилы-Су 3.JPG" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Джилы-Су/Джилы-Су 1.JPG" alt="Джилы-СУ 1" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Джилы-Су/Джилы-Су 2.JPG" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Джилы-Су/Джилы-Су 3.JPG" class="rounded-xl h-48 object-cover snap-center">
         </div>
         <div class="bg-amber-50 p-4 rounded-xl mb-4">
             <h4 class="font-semibold text-lg mb-2">Как добраться:</h4>
@@ -705,9 +705,9 @@
         <div id="map-philharmonic" class="w-full h-64 mb-4 rounded-xl"></div>
         <p class="text-gray-700 mb-4">Кисловодская государственная филармония имени В.И. Сафонова - главная концертная площадка города, где проходят выступления симфонического оркестра, камерных ансамблей и приглашенных исполнителей. Здание филармонии является памятником архитектуры.</p>
         <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-            <img src="/images/Внутреннее устройство/Филармония/Филармония 1.jpg" alt="Филармония 1" class="rounded-xl h-48 object-cover snap-center">
-            <img src="/images/Внутреннее устройство/Филармония/Филармония 2.jpg" class="rounded-xl h-48 object-cover snap-center">
-            <img src="/images/Внутреннее устройство/Филармония/Филармония 3.jpg" alt="Филармония 3" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Филармония/Филармония 1.jpg" alt="Филармония 1" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Филармония/Филармония 2.jpg" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Филармония/Филармония 3.jpg" alt="Филармония 3" class="rounded-xl h-48 object-cover snap-center">
         </div>
         <div class="bg-amber-50 p-4 rounded-xl mb-4">
             <h4 class="font-semibold text-lg mb-2">Заказать билеты:</h4>
@@ -729,8 +729,8 @@
         <div id="map-wolfvalley" class="w-full h-64 mb-4 rounded-xl"></div>
         <p class="text-gray-700 mb-4">Долина волков - уникальный парк, где в естественных условиях содержатся несколько стай волков. Посетители могут наблюдать за поведением этих удивительных животных, узнать об их повадках и роли в экосистеме.</p>
         <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-            <img src="/images/Долина волков 2.jpg" alt="Долина волков 1" class="rounded-xl h-48 object-cover snap-center">
-            <img src="/images/Долина волков 1.jpg" alt="Долина волков 2" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Долина волков 2.jpg" alt="Долина волков 1" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Долина волков 1.jpg" alt="Долина волков 2" class="rounded-xl h-48 object-cover snap-center">
         </div>
         <div class="bg-amber-50 p-4 rounded-xl mb-4">
             <h4 class="font-semibold text-lg mb-2">Информация для посетителей:</h4>
@@ -751,8 +751,8 @@
         <div id="map-bermamyt" class="w-full h-64 mb-4 rounded-xl"></div>
         <p class="text-gray-700 mb-4">Плато Бермамыт - одно из самых живописных мест Кавказа, откуда открывается панорамный вид на Эльбрус и Главный Кавказский хребет. Высота плато около 2600 метров над уровнем моря.</p>
         <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-            <img src="/images/Внутреннее устройство/Бермамыт/Бермамыт 1.jpg" alt="Бермамыт 1" class="rounded-xl h-48 object-cover snap-center">
-            <img src="/images/Внутреннее устройство/Бермамыт/Бермамыт 2.jpg" alt="Бермамыт 2" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Бермамыт/Бермамыт 1.jpg" alt="Бермамыт 1" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Бермамыт/Бермамыт 2.jpg" alt="Бермамыт 2" class="rounded-xl h-48 object-cover snap-center">
         </div>
         <div class="bg-amber-50 p-4 rounded-xl mb-4">
             <h4 class="font-semibold text-lg mb-2">Экскурсии на плато:</h4>
@@ -773,8 +773,8 @@
         <div id="map-suvorov" class="w-full h-64 mb-4 rounded-xl"></div>
         <p class="text-gray-700 mb-4">Суворовские ванны - термальные источники с лечебной водой, температура которой круглый год составляет около 40°C. Вода богата минералами и полезна при заболеваниях опорно-двигательного аппарата.</p>
         <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-            <img src="/images/Внутреннее устройство/Суворовские ванны/Суворовские ванны 1.jpg" alt="Суворовские ванны 1" class="rounded-xl h-48 object-cover snap-center">
-            <img src="/images/Внутреннее устройство/Суворовские ванны/Суворовские ванны 2.jpg" alt="Суворовские ванны 2" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Суворовские ванны/Суворовские ванны 1.jpg" alt="Суворовские ванны 1" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Суворовские ванны/Суворовские ванны 2.jpg" alt="Суворовские ванны 2" class="rounded-xl h-48 object-cover snap-center">
         </div>
         <div class="bg-amber-50 p-4 rounded-xl mb-4">
             <h4 class="font-semibold text-lg mb-2">Информация для посетителей:</h4>
@@ -795,9 +795,9 @@
         <div id="map-italian" class="w-full h-64 mb-4 rounded-xl"></div>
         <p class="text-gray-700 mb-4">Спа-комплекс "Итальянские термы" предлагает отдых в термальных бассейнах с водой из природных источников. На территории есть несколько бассейнов с разной температурой воды, сауны, зоны отдыха и кафе.</p>
         <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-            <img src="/images/Внутреннее устройство/Итальянские термы/Итальянские термы 1.jpg" alt="Итальянские термы 1" class="rounded-xl h-48 object-cover snap-center">
-            <img src="/images/Внутреннее устройство/Итальянские термы/Итальянские термы 2.jpg" class="rounded-xl h-48 object-cover snap-center">
-            <img src="/images/Внутреннее устройство/Итальянские термы/Итальянские термы 3.jpg" alt="Итальянские термы 3" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Итальянские термы/Итальянские термы 1.jpg" alt="Итальянские термы 1" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Итальянские термы/Итальянские термы 2.jpg" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Итальянские термы/Итальянские термы 3.jpg" alt="Итальянские термы 3" class="rounded-xl h-48 object-cover snap-center">
         </div>
         <div class="flex items-center gap-4">
             <button onclick="switchTab('apartment')" class="bg-teal-600 text-white px-4 py-2 rounded-xl hover:bg-teal-700 transition">Арендовать квартиру</button>
@@ -813,8 +813,8 @@
         <div id="map-alpaca" class="w-full h-64 mb-4 rounded-xl"></div>
         <p class="text-gray-700 mb-4">Контактный зоопарк с альпаками - это уникальное место, где можно пообщаться с этими удивительными животными, покормить их и сделать памятные фотографии. На территории также есть кафе и зона отдыха.</p>
         <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-            <img src="/images/Внутреннее устройство/Альпаки/Альпаки 1.jpeg" alt="Альпаки 1" class="rounded-xl h-48 object-cover snap-center">
-            <img src="/images/Внутреннее устройство/Альпаки/Альпаки 2.jpg" alt="Альпаки 2" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Альпаки/Альпаки 1.jpeg" alt="Альпаки 1" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Альпаки/Альпаки 2.jpg" alt="Альпаки 2" class="rounded-xl h-48 object-cover snap-center">
         </div>
         <div class="bg-amber-50 p-4 rounded-xl mb-4">
             <h4 class="font-semibold text-lg mb-2">Информация для посетителей:</h4>
@@ -834,8 +834,8 @@
         <div id="map-observatory" class="w-full h-64 mb-4 rounded-xl"></div>
         <p class="text-gray-700 mb-4">Астрономическая обсерватория на горе Шаджатмаз (высота 2127 м) принадлежит Российской академии наук. Здесь проводятся экскурсии, во время которых можно посмотреть в телескоп и узнать о работе астрономов.</p>
         <div class="flex overflow-x-auto gap-4 mb-4 snap-x snap-mandatory">
-            <img src="/images/Внутреннее устройство/Обсерватория/Обсерватория 1.jpg" alt="Обсерватория 1" class="rounded-xl h-48 object-cover snap-center">
-            <img src="/images/Внутреннее устройство/Обсерватория/Обсерватория 2.jpg" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Обсерватория/Обсерватория 1.jpg" alt="Обсерватория 1" class="rounded-xl h-48 object-cover snap-center">
+            <img src="../images/Внутреннее устройство/Обсерватория/Обсерватория 2.jpg" class="rounded-xl h-48 object-cover snap-center">
         </div>
         <div class="bg-amber-50 p-4 rounded-xl mb-4">
             <h4 class="font-semibold text-lg mb-2">Экскурсии:</h4>
