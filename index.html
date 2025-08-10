@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Путеводитель для гостей Кисловодска</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://api-maps.yandex.ru/2.1/?apikey=your-api-key&lang=ru_RU"></script>
@@ -893,6 +893,7 @@
             let mapInitialized = {};
 
             // Переключение вкладок
+            // В функции switchTab добавим прокрутку к началу контента
             function switchTab(tab) {
                 document.querySelectorAll('.tab-content').forEach(content => content.classList.add('hidden'));
                 document.querySelectorAll('.tab-button').forEach(button => button.classList.remove('bg-amber-100', 'border-b-2', 'border-teal-600'));
@@ -900,6 +901,10 @@
                 document.getElementById(`tab-${tab}`).classList.add('bg-amber-100', 'border-b-2', 'border-teal-600');
                 if (tab === 'map' && !mapInitialized['full']) {
                     initFullMap();
+                }
+                // Прокрутка к началу контента на мобильных устройствах
+                if (window.innerWidth < 768) {
+                    document.getElementById(`${tab}-content`).scrollIntoView({ behavior: 'smooth' });
                 }
             }
 
@@ -1014,6 +1019,15 @@
                     mapInitialized['full'] = true;
                 });
             }
+            // Добавим в конец скрипта
+            document.querySelectorAll('.modal').forEach(modal => {
+                modal.addEventListener('click', function(e) {
+                    if (e.target === this) {
+                        this.classList.remove('show');
+                        setTimeout(() => this.classList.add('hidden'), 300);
+                    }
+                });
+            });
 
             // Инициализация первой вкладки
             switchTab('apartment');
