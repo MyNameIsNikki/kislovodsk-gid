@@ -6,12 +6,54 @@
     <title>Путеводитель для гостей Кисловодска</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://api-maps.yandex.ru/2.1/?apikey=your-api-key&lang=ru_RU"></script>
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preload" href="/css/styles.css">
     <link rel="preload" href="images/bg_Kislovodsk.webp" as="image">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+    /* Добавьте это в конец вашего файла styles.css */
+
+@media (max-width: 768px) {
+    /* Изменяем flex-контейнер вкладок на вертикальный */
+    .flex.border-b.border-gray-200.mb-8 {
+        flex-direction: column;
+        border-bottom: none;
+    }
+    
+    /* Стили для кнопок вкладок на мобильных */
+    .tab-button {
+        width: 100%;
+        border-radius: 0;
+        border-bottom: 1px solid #e5e7eb;
+        text-align: left;
+    }
+    
+    /* Стиль для активной вкладки */
+    .tab-button.bg-amber-100 {
+        background-color: #fef3c7;
+        border-left: 4px solid #0d9488;
+    }
+    
+    /* Убираем скругления углов у кнопок */
+    .tab-button.rounded-t-xl {
+        border-radius: 0;
+    }
+    
+    /* Добавляем отступы для лучшего вида */
+    .tab-button.px-6.py-3 {
+        padding: 1rem;
+    }
+}
+</style>
 </head>
 <body class="bg-amber-50 font-inter">
     <header class="relative bg-cover bg-center py-16 md:py-24" style="background-image: url('images/bg_Kislovodsk.webp')">
+        <link rel="preload" href="images/bg_Kislovodsk.webp" as="image" imagesrcset="images/bg_Kislovodsk-480.webp 480w, images/bg_Kislovodsk-800.webp 800w, images/bg_Kislovodsk-1200.webp 1200w" imagesizes="100vw">
+        <picture>
+            <source media="(max-width: 600px)" srcset="images/bg_Kislovodsk-mobile.webp">
+            <img src="images/bg_Kislovodsk.webp" alt="Кисловодск" class="absolute inset-0 w-full h-full object-cover" loading="eager" width="1200" height="630">
+        </picture>
         <div class="absolute inset-0 bg-gradient-to-b from-black/60 to-black/20"></div>
         <div class="container mx-auto px-4 relative z-10">
             <div class="inline-block bg-white/90 backdrop-blur-md rounded-xl px-6 py-4 md:px-8 md:py-6 -ml-4">
@@ -286,7 +328,7 @@
         <!-- Контент вкладки "Карта" -->
         <div id="map-content" class="tab-content hidden">
             <section class="bg-white rounded-xl shadow-lg p-8">
-                <h2 class="text-3xl font-semibold mb-4 text-teal-900">Карта достопримечательностей Кисловодска</h2>
+                <h2 class="text-3xl font-semibold mb-4 text-teal-900">Путеводитель по Кисловодску</h2>
                 <div id="map-full" class="w-full h-[600px] rounded-xl"></div>
             </section>
         </div>
